@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gourmet Bistro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Gourmet Bistro</h1>
+        <nav>
+            <a href="#menu">Menu</a>
+            <a href="#location">Location & Contact</a>
+            <a href="#delivery">Order Delivery</a>
+        </nav>
+    </header>
+
+    <main>
+        <!-- MENU SECTION -->
+        <section id="menu">
+            <h2>Our Menu</h2>
+            <div class="menu-container">
+                <div class="menu-item">
+                    <h3>Classic Burger</h3>
+                    <p>Juicy beef patty, cheddar, lettuce, tomato, and secret sauce.</p>
+                    <span class="price">$14.99</span>
+                </div>
+                <div class="menu-item">
+                    <h3>Margherita Pizza</h3>
+                    <p>Fresh mozzarella, basil, and san marzano tomato sauce.</p>
+                    <span class="price">$12.99</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- LOCATION & CONTACT -->
+        <section id="location">
+            <h2>Find Us & Contact</h2>
+            <p>📍 123 Flavor Street, Foodville</p>
+            <p>📞 <a href="tel:1234567890">Call to Order: (123) 456-7890</a></p>
+            <p>⏰ Open Daily: 11:00 AM - 10:00 PM</p>
+        </section>
+
+        <!-- DELIVERY SECTION -->
+        <section id="delivery">
+            <h2>Order Delivery</h2>
+            <form id="order-form">
+                <input type="text" placeholder="Your Name" required>
+                <input type="text" placeholder="Delivery Address" required>
+                <select>
+                    <option>Classic Burger ($14.99)</option>
+                    <option>Margherita Pizza ($12.99)</option>
+                </select>
+                <button type="submit">Place Order</button>
+            </form>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
